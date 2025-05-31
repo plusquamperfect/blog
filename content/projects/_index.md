@@ -2,4 +2,7 @@
 title: "Projects"
 ---
 
-Planned sections may include reading notes, digital tools for historical research, and intersections between classical texts and scientific development.
+Sections may include:
+- annotated readings
+- digital tools for historical science
+- commentary on classical reception

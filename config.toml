@@ -5,11 +5,9 @@ theme = "papermod"
 
 [params]
   author = "AnonDev"
-  defaultTheme = "auto"
   ShowReadingTime = true
-  ShowShareButtons = true
-  ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  defaultTheme = "auto"
   math = true
 
 [menu]
@@ -33,6 +31,3 @@ theme = "papermod"
     unsafe = true
   [markup.highlight]
     noClasses = false
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
