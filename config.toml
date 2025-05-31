@@ -1,16 +1,38 @@
-
-baseURL = "/"
+baseURL = "https://plusquamperfect.pages.dev"
 languageCode = "en-us"
 title = "plusquamperfect"
 theme = "papermod"
-enableRobotsTXT = true
 
 [params]
-  author = "plusquamperfect"
+  author = "AnonDev"
   defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  math = true
 
 [menu]
   [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
