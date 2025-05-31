@@ -1,0 +1,16 @@
+
+baseURL = "/"
+languageCode = "en-us"
+title = "plusquamperfect"
+theme = "papermod"
+enableRobotsTXT = true
+
+[params]
+  author = "plusquamperfect"
+  defaultTheme = "auto"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
