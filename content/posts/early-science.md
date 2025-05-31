@@ -1,6 +1,6 @@
 ---
 title: "Reading *Early Science and Medicine*"
-date: 2025-05-31T23:54:27:z
+date: 2025-05-31T23:54:27Z
 tags: ["early science", "intellectual history", "history of medicine"]
 ---
 
