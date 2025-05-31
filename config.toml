@@ -4,7 +4,7 @@ title = "plusquamperfect"
 theme = "papermod"
 
 [params]
-  author = "AnonDev"
+  author = "admin"
   ShowReadingTime = true
   ShowCodeCopyButtons = true
   defaultTheme = "auto"
