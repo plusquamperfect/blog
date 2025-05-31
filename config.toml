@@ -1,33 +1,49 @@
-baseURL = "https://plusquamperfect.pages.dev"
-languageCode = "en-us"
+baseURL = "https://plusquamperfect.pages.dev/"
+languageCode = "en"
 title = "plusquamperfect"
 theme = "papermod"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 [params]
   author = "admin"
   ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
   ShowCodeCopyButtons = true
-  defaultTheme = "auto"
-  math = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+    title = "plusquamperfect"
+    params.homeInfoParams.Title = "Welcome to plusquamperfect"
+    params.homeInfoParams.Content = "This space is for writing, notes, and experiments in thought."
+
+  [languages.ru]
+    languageName = "Русский"
+    weight = 2
+    contentDir = "content/ru"
+    title = "плюсквамперфект"
+    params.homeInfoParams.Title = "Добро пожаловать"
+    params.homeInfoParams.Content = "Это место для заметок, экспериментов и размышлений."
 
 [menu]
   [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 1
-
-  [[menu.main]]
+    identifier = "posts"
     name = "Posts"
     url = "/posts/"
-    weight = 2
+    weight = 10
 
   [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "projects"
     name = "Projects"
     url = "/projects/"
-    weight = 3
-
-[markup]
-  [markup.goldmark.renderer]
-    unsafe = true
-  [markup.highlight]
-    noClasses = false
+    weight = 30
